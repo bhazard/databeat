@@ -1,0 +1,5 @@
+= Databeat Docs
+
+Welcome to the Databeat documentation.
+
+
