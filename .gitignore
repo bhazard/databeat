@@ -5,3 +5,4 @@
 /databeat
 /databeat.test
 *.pyc
+/vendor
