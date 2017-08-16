@@ -1,11 +1,12 @@
 # Databeat
 
-Welcome to Databeat.
+Welcome to Databeat, an elastic beat to gather data from SQL data sources and feed it to elasticsearch.
+
+
+## Getting Started with Databeat
 
 Ensure that this folder is at the following location:
 `${GOPATH}/github.com/bhazard/databeat`
-
-## Getting Started with Databeat
 
 ### Requirements
 
@@ -17,15 +18,6 @@ dependencies, run the following command:
 
 ```
 make setup
-```
-
-It will create a clean git history for each major step. Note that you can always rewrite the history if you wish before pushing your changes.
-
-To push Databeat in the git repository, run the following commands:
-
-```
-git remote set-url origin https://github.com/bhazard/databeat
-git push origin master
 ```
 
 For further development, check out the [beat developer guide](https://www.elastic.co/guide/en/beats/libbeat/current/new-beat.html).
@@ -84,7 +76,6 @@ To clean  Databeat source code, run the following commands:
 
 ```
 make fmt
-make simplify
 ```
 
 To clean up the build directory and generated artifacts, run:
